@@ -1,0 +1,171 @@
+body {
+  background-color: black;
+  color: limegreen;
+  font-family: "Crimson Text";
+}
+a {
+  color: white;
+}
+a:hover {
+  color: limegreen;
+}
+.newline {
+  margin-top: 1em;
+}
+.title {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  color: white;
+}
+
+#secret {
+  margin-left: 80%;
+  color: black;
+  font-size: 0.1em;
+}
+.quote {
+  color: white;
+  margin-top: 0.5em;
+  font-size: 1.5em;
+}
+.hint {
+  margin-top: 0.8em;
+  margin-bottom: 1.72em;
+  margin-left: 1em;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+#hint0b {
+  margin-bottom: -0.29em;
+}
+#hint0c {
+  margin-bottom: 4.71em;
+}
+#hint1 {
+  margin-bottom: 3.47em;
+}
+
+#hint_0 {
+  list-style: georgian;
+  margin-left: 2em;
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+#hint_1 {
+  list-style-type: georgian;
+  font-size: 1.2em;
+  margin-top: -4.39em;
+  margin-left: 10em;
+  margin-bottom: 4.2em;
+}
+#hintMsg {
+  font-size: 1.7em;
+  margin-left: 1.5em;
+  line-height: 0.8em;
+}
+#hints {
+  font-size: 1.8em;
+  margin-left: 5em;
+  margin-top: -0.25em;
+  margin-bottom: -2em;
+}
+
+#rules {
+  list-style-type: georgian;
+  margin-left: 1em;
+  margin-right: 2em;
+  margin-top: -0.1em;
+  font-size: 1.8em;
+  line-height: 1.2em;
+}
+
+#skipBtn {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: -3.5em;
+  margin-right: 1em;
+  color: white;
+}
+#skipBtn:hover {
+  color: limegreen;
+}
+#msg {
+  background: black;
+  color: limegreen;
+  font-family: "Crimson Text";
+  font-size: 1.75em;
+  line-height: 1em;
+  margin-top: 2em;
+  margin-left: 1em;
+  margin-right: 2.25vw;
+}
+#tag {
+  display: flex;
+  margin-top: 1em;
+  font-size: 3em;
+  justify-content: center;
+  white-space: nowrap;
+}
+#name {
+  color: white;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+#name:hover {
+  color: limegreen;
+}
+
+.creds {
+  font-size: 1.8em;
+  margin-bottom: 1em;
+  line-height: 1em;
+  text-align: center;
+}
+#credExample {
+  color: white;
+}
+#manager {
+  width: 100%;
+  margin-bottom: -0.5em;
+}
+th {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 0.45em;
+}
+td {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.45em;
+  padding-bottom: 0.45em;
+}
+tr:hover {
+  background-color: maroon;
+}
+
+.navbar {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.forward {
+  float: right;
+  width: 6%;
+  margin-right: 4em;
+}
+.forward:hover {
+  filter: invert();
+  -webkit-filter: invert();
+}
+.backward {
+  float: left;
+  width: 6%;
+  margin-left: 4em;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.backward:hover {
+  filter: invert();
+  -webkit-filter: invert();
+}

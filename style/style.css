@@ -19,6 +19,34 @@ a:hover {
   color: white;
 }
 
+#miazi {
+  margin-left: 1.25em;
+  margin-bottom: -1em;
+}
+.videoTitle {
+  margin-top: 2em;
+  font-size: 0.8em;
+}
+.video {
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+}
+.video::after {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#videos {
+  list-style: georgian;
+}
 #secret {
   margin-left: 80%;
   color: black;
@@ -45,24 +73,33 @@ a:hover {
 #hint1 {
   margin-bottom: 3.47em;
 }
+#hintX {
+  margin-bottom: 0em;
+}
 
 #hint_0 {
   list-style: georgian;
-  margin-left: 2em;
+  margin-left: 1em;
   font-size: 1.2em;
   line-height: 1.8em;
 }
 #hint_1 {
-  list-style-type: georgian;
+  list-style: georgian;
   font-size: 1.2em;
   margin-top: -4.39em;
-  margin-left: 10em;
-  margin-bottom: 4.2em;
+  margin-left: 7.5em;
+}
+#hint_x {
+  list-style: georgian;
+  font-size: 1.2em;
+  margin-top: -2.39em;
+  margin-left: 13.25em;
+  margin-bottom: 3.4em;
 }
 #hintMsg {
   font-size: 1.7em;
   margin-left: 1.5em;
-  line-height: 0.8em;
+  line-height: 0.6em;
 }
 #hints {
   font-size: 1.8em;
